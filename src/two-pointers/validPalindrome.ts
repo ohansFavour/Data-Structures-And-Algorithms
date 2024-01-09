@@ -17,5 +17,5 @@ export function isAPalindrome(input: string) {
 
 // Details
 
-// Time Complexity: O(n)
+// Time Complexity: O(n) // We traverse the input 
 // Space Complexity: O(1) => constant because we use constant space to store two indexes
