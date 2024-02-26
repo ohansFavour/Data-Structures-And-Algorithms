@@ -4,6 +4,11 @@ describe('Sum of three values', () => {
   it('works as expected', () => {
     const testCases = [
       {
+        input: [2, 4, 2, 7, 6, 3, 1],
+        target: 10,
+        canSumUpToTarget: true,
+      },
+      {
         input: [3, 7, 1, 2, 8, 4, 5],
         target: 10,
         canSumUpToTarget: true,
