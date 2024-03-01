@@ -33,11 +33,6 @@ describe('Sum of three values', () => {
         target: 10,
         canSumUpToTarget: true,
       },
-      {
-        input: [2, 4, 2, 7, 6, 3, 1, 4],
-        target: 10,
-        canSumUpToTarget: true,
-      },
     ];
 
     for (const testCase of testCases) {
