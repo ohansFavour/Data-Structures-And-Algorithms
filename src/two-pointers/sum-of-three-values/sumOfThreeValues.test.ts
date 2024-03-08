@@ -38,7 +38,6 @@ describe('Sum of three values', () => {
     for (const testCase of testCases) {
       const expectedResult = testCase.canSumUpToTarget;
       const actualResult = findSumOfThree(testCase.input, testCase.target);
-      console.log(testCase.target);
       expect(expectedResult).toBe(actualResult);
     }
   });
