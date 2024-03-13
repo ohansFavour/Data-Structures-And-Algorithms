@@ -21,3 +21,10 @@ export function detectCycle(head: LinkedListNode) {
 
   return true;
 }
+
+// Time complexity
+// The time complexity of the algorithm is O(n) where n is the number of nodes in the linked list.
+
+// Space complexity
+// The space complexity of the algorithm above is O(1)
+
