@@ -13,3 +13,11 @@ export function getMiddleNode(head: { next: any }) {
 
   return slowPointer;
 }
+
+// Time complexity
+
+// The time complexity of the solution above is O(n)
+// where n is the number of nodes in the linked list.
+
+// Space complexity
+// The space complexity of this solution is constant, that is, O(1)
