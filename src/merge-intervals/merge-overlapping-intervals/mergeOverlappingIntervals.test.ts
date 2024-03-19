@@ -31,6 +31,16 @@ describe('Merge Overlapping Interval arrays', () => {
           [6, 9],
         ],
       },
+      {
+        input: [
+          [1, 3],
+          [4, 5],
+        ],
+        output: [
+          [1, 3],
+          [4, 5],
+        ],
+      },
     ];
 
     for (const testCase of testCases) {
